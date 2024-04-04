@@ -1,4 +1,4 @@
-from flask import blueprints, render_template
+from flask import Blueprint, render_template
 
 # Blureprint で crud アプリを生成する
 crud = Blueprint(
